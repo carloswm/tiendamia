@@ -1,0 +1,73 @@
+.footer-testimonios .title {
+    font-size: 22px;
+    color: #777;
+    text-align: left;
+    max-width: 100%;
+    font-weight: 400;
+    line-height: 1.25;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 0;
+}
+
+.embedsocial-reviews .sub-title-box {
+    text-align: left;
+    color: #777;
+    font-size: 12px;
+    padding: 5px 10px 15px 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+.embedsocial-reviews .container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.embedsocial-reviews .container-fluid .swiper-slide .slider-item {
+    width: 370px;
+    margin-right: 30px;
+}
+
+.embedsocial-reviews .container-fluid .swiper-slide .slider-item .slider-img {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(18,25,33,0.1);
+    margin-top: 80px;
+    overflow: visible;
+    padding: 0 40px 40px;
+    height: 280px;
+}
+
+.embedsocial-reviews .container-fluid .swiper-slide .slider-item .slider-img .img {
+    margin-bottom: -30px;
+    overflow: visible;
+    position: relative;
+    text-align: left;
+    top: -60px;
+}
+
+.reviewer-name {
+    margin-top: 0;
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+}
+
+.review-text-slider {
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+}
+
+.slider-img .stars {
+    text-align: left;
+}
+
+.slider-img .stars .quote {
+    float: right;
+}
+
+.slider-img .stars .quote .slide-quote {
+    background: url("https://embedsocial.com/cdn/quotes.png") no-repeat;
+    display: block;
+    height: 100px;
+    opacity: .2;
+    width: 60px;
+}

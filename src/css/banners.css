@@ -1,0 +1,86 @@
+.main-banners {
+  position: relative;
+  max-width: 1500px;
+  margin: auto;
+  transition: opacity 0.5s;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner {
+  display: none;
+}
+
+.banner.active {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.controls {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.main-banners:hover .controls {
+  opacity: 1;
+}
+
+.prev-button,
+.next-button {
+  background: transparent;
+  cursor: pointer;
+  width: 45px;
+  height: 65px;
+  border: 1px solid #dedede;
+  box-shadow: 0 4px 8px rgba(68, 68, 68, 0.2);
+  background-color: #fff;
+}
+
+.prev-button {
+  border-radius: 0 8px 8px 0;
+}
+
+.next-button {
+  border-radius: 8px 0 0 8px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #e1e0e0;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
